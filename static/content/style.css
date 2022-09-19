@@ -13,3 +13,14 @@
 .divButtons{
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+.inputs{
+    margin: 8px 0px 8px 0px;
+}
+
+.contenedor{
+    margin-bottom: 50px;
+    background-color:rgba(249, 244, 244, 0.878);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../static/content/bootstrap.min.css">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/606e397101.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/content/style.css">
+</head>
+<body>
+    <header>
+        <!--este es el navbar(menu)-->
+        <div>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="../static/img/logoClinica1.jpg" alt=""> </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Paciente</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Médico</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Administrador</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!--este es el carrusel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../static/img/banner4.jpg" alt="">
+                 
+          </div>
+          <div class="carousel-item ">
+            <img src="../static/img/banner5.jpg" alt="">
+      
+          </div>
+          <div class="carousel-item">
+            <img src="../static/img/banner6.jpg" alt="">
+      
+          </div>
+     </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <main>
+        <h2 class="titulo">Consulta del Paciente</h2>
+        <form action="">
+            <div class="container contenedor">
+                <div class="row" style="margin-bottom: 10px">
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                        <label class="input-group-text inputs" for="inputGroupSelect01">Tipo de Documento</label>
+                        <span class="input-group-text inputs">Numero Documento</span>
+                        <span class="input-group-text inputs">Confirmar Numero de Documento</span>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                        <select class="form-select inputs" id="inputGroupSelect01">
+                            <option selected>Tipo Documento</option>
+                            <option value="1">Tarjeta de Identidad</option>
+                            <option value="2">Regsitro Civil</option>
+                            <option value="3">Cedula de Ciudadania</option>
+                        </select>
+                        <input type="text" aria-label="Numero de Documento" class="form-control inputs">
+                        <input type="text" aria-label="Numero de Documento" class="form-control inputs">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2"></div>
+                </div>
+                <div class="row">
+                    
+                    <div class="d-grid gap-2 col-2 mx-auto">
+                        <input class="btn btn-primary" type="button" value="Buscar">
+                    </div>
+                    
+                </div>
+            </div>
+        </form>
+    </main>
+     <!--este es el footer(pie de página)-->
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block text-light">
+        <span>Nos puedes encontrar en las redes:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <!-- Facebook -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <!-- Twitter -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <!-- Google -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+        <!-- Instagram -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3 text-white-50">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4 text-light">
+              <i class="fas fa-gem me-3 text-light"></i>TRABAJE CON NOSOTROS:
+            </h6>
+            <p>
+              Buscamos capital humano que contribuya al desarrollo de nuestra organización. Puedes enviar un correo a:.
+            </p>
+            <p><a href="#!" class="text-reset">selecciongh2@clinicageneraldelnorte.com</a></p>
+            <p><a href="#!" class="text-reset">selección_gh@clinicageneraldelnorte.com</a></p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 text-light">
+              IMPORTANTE
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Manual de Tratamiento y Protección de Datos Personales</a>
+            </p>
+            <h6 class="text-uppercase fw-bold mb-4 text-light">
+              NOTIFICACIONES JUDICIALES:
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">juridica@clinicageneraldelnorte.com</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 text-light">Contáctenos</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> Calle 70 No. 48 – 35</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              PBX: +57 (605) 3091999
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> Atención al Usuario: 11217
+              </p>
+            <p><i class="fas fa-print me-3 text-secondary"></i>Oficinas Administrativas: 11215  </p>
+            <p><i class="fas fa-print me-3 text-secondary"></i>Solicitud de Citas:+57 (605) 3091666 </p>
+  
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4 text-white-50" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="https://clinicageneraldelnorte.com/">clinicageneraldelnorte.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</body>
+</html>
