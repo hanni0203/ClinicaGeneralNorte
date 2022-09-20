@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Paciente</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../static/content/bootstrap.min.css">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/606e397101.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/content/style.css">
+    
+
+</head>
+<body>
+    <header>
+      <!--este es el navbar(menu)-->
+      <div class="row">
+        <div class="col -sm-12 col -md-4 col -lg-4 col -xl-4">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="../static/img/ClinicaGeneralDelNorte.png" alt="" width="150" class="d-inline-block align-text-top"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      <a class="nav-link" href="#">Nosotros</a>
+                      <a class="nav-link" href="#">Contactos</a>
+                      <a class="nav-link">Paciente</a>
+                      <a class="nav-link">Medico</a>
+                      <a class="nav-link">Administrador</a>
+                    
+                    <div class="col -sm-12 col -md-4 col -lg-4 col -xl-4">     
+                        
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                              <a class="navbar-brand">
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              
+                          </nav>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+      </div>
+  </header>
+  <!--este es el carrusel-->
+  </header>
+    <main>
+        <h2 class="titulo">Registro de Pacientes</h2>
+      <form action="">
+        <div class="container contenedor">
+          <div class="row" style="margin-bottom: 5px">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+              <label class="input-group-text inputs" for="inputGroupSelect01">Tipo de Documento</label>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <select class="form-select inputs" id="inputGroupSelect01">
+                <option selected>Tipo Documento</option>
+                <option value="1">Cedula de Ciudadania</option>
+                <option value="2">Pasaporte</option>
+                <option value="3">Cedula de Extrangeria</option>
+              </select>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+              <span class="input-group-text inputs">Numero Documento</span>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <input type="text" aria-label="Numero de Documento" name="numero_documento" class="form-control inputs">
+            </div>
+          </div>
+          <div class="row" style="margin-bottom: 5px">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+              <span class="input-group-text inputs">Nombres</span>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <input type="text" aria-label="Nombres" name="nombres" class="form-control inputs">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+              <span class="input-group-text inputs">Apellidos</span>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <input type="text" aria-label="Apellidos" name="apellidos" class="form-control inputs">
+            </div>
+          </div>
+          <div class="row" style="margin-bottom: 5px">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+              <span class="input-group-text inputs">Genero</span>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="form-check form-check-inline inputs">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Femenino</label>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+              <div class="form-check form-check-inline inputs">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Masculino</label>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="margin-bottom: 5px">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+              <span class="input-group-text inputs">Dirección Residencia</span>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-8">
+              <input type="text" aria-label="Direccion" name="direccion" class="form-control inputs">
+            </div>
+          </div>
+          <div class="row" style="margin-bottom: 5px">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+              <span class="input-group-text inputs">Telefono / Celular</span>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <input type="text" aria-label="Telefono" name="telefono" class="form-control inputs">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+              <span class="input-group-text inputs">Fecha Nacimiento</span>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 inputs">
+              <input class="form-date__input" type="date" name="fecha_nacimiento" id="input-date"/>
+            </div>
+          </div>
+          <div class="row" style="margin-bottom: 5px">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+              <span class="input-group-text inputs">Correo Electrónico</span>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-8">
+              <input type="text" aria-label="email" name="email" class="form-control inputs">
+            </div>
+          </div>
+          <div class="row" style="margin-bottom: 5px">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2 inputs">
+              <input type="checkbox"> <span> Acepto términos y condiciones de la politica de privacidad vigente</span>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="d-grid gap-2 col-2 mx-auto">
+                <input class="btn btn-primary" type="button" value="Ingresar Registro">
+            </div>
+        </div>
+        </div>
+      </form>
+    </main>
+    <!--este es el footer(pie de página)-->
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block text-light">
+        <span>Nos puedes encontrar en las redes:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <!-- Facebook -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <!-- Twitter -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <!-- Google -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+        <!-- Instagram -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3 text-white-50">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4 text-light">
+              <i class="fas fa-gem me-3 text-light"></i>TRABAJE CON NOSOTROS:
+            </h6>
+            <p>
+              Buscamos capital humano que contribuya al desarrollo de nuestra organización. Puedes enviar un correo a:.
+            </p>
+            <p><a href="#!" class="text-reset">selecciongh2@clinicageneraldelnorte.com</a></p>
+            <p><a href="#!" class="text-reset">selección_gh@clinicageneraldelnorte.com</a></p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 text-light">
+              IMPORTANTE
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Manual de Tratamiento y Protección de Datos Personales</a>
+            </p>
+            <h6 class="text-uppercase fw-bold mb-4 text-light">
+              NOTIFICACIONES JUDICIALES:
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">juridica@clinicageneraldelnorte.com</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 text-light">Contáctenos</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> Calle 70 No. 48 – 35</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              PBX: +57 (605) 3091999
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> Atención al Usuario: 11217
+              </p>
+            <p><i class="fas fa-print me-3 text-secondary"></i>Oficinas Administrativas: 11215  </p>
+            <p><i class="fas fa-print me-3 text-secondary"></i>Solicitud de Citas:+57 (605) 3091666 </p>
+  
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4 text-white-50" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="https://clinicageneraldelnorte.com/">clinicageneraldelnorte.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    
+</body>
+</html>
