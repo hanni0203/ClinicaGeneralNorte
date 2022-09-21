@@ -58,3 +58,19 @@
 .btn-detalle {
     justify-content: center;
 }
+
+
+
+
+.contenedordostabla{
+    overflow-y: scroll;
+    max-width: auto;
+    height: 250px;
+    background-color: rgba(249, 244, 244, 0.878);
+
+}
+.conte{
+    background-color: rgba(249, 244, 244, 0.878);
+
+}
+
