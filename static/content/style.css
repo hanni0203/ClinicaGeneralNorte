@@ -37,3 +37,24 @@
 .barrabutton{
     margin: 20px 0px 10px 0px;
 }
+
+.btn-detalle-cita{
+    width: 200px;
+}
+
+.btn-toolbar-justify{
+    justify-content: center;
+}
+
+.label-calificacion{
+    margin: auto;
+}
+
+.radio-calificacion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-detalle {
+    justify-content: center;
+}
