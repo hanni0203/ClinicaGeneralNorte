@@ -19,11 +19,7 @@
     margin-bottom: 40px;
 }
 
-.titulo2{
-    text-align: left;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
+
 
 .divButtons{
     background-color: rgba(0, 0, 0, 0.6);
@@ -121,17 +117,24 @@
     width: 500px;
     background-color: rgba(249, 244, 244, 0.878);
 }
+
 .div-main{
 display: flex;
 justify-content: space-between;
-background-color: red;
+background-color: rgb(231, 250, 234);
 margin-bottom: 80px;
 margin-top: 80px;
 }
+
 .div-listado1{
     display: flex;
 }
+
 .div-listado2{
     width: 900px;
+    line-height: 9px;
+    background-color: white;
 }
+
+
 
