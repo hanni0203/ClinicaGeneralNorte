@@ -19,6 +19,12 @@
     margin-bottom: 40px;
 }
 
+.titulo2{
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 .divButtons{
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -104,6 +110,28 @@
 }
 .conte{
     background-color: rgba(249, 244, 244, 0.878);
+}
 
+.listado{
+    display: flex;
+    background-color:aquamarine;
+}
+
+.conte-medico{
+    width: 500px;
+    background-color: rgba(249, 244, 244, 0.878);
+}
+.div-main{
+display: flex;
+justify-content: space-between;
+background-color: red;
+margin-bottom: 80px;
+margin-top: 80px;
+}
+.div-listado1{
+    display: flex;
+}
+.div-listado2{
+    width: 900px;
 }
 
